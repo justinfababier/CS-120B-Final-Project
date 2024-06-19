@@ -5,8 +5,6 @@
 #include "ST7735.h"
 #include "timerISR.h"
 
-#define NUM_OBSTACLES 5 // Number of obstacles in the games
-
 // Function to draw a bitmap
 void drawBitmap(const unsigned char *bitmap, int x, int y, int height, int width) {
 
