@@ -6,7 +6,7 @@
  * I acknowledge all content contained herein, 
  * excluding template or example code, is my own original work.
  * 
- * Demo Link: 
+ * Demo Link: https://youtu.be/c5ZJR1UjT2s
  */
 
 #include "helper.h"
@@ -824,10 +824,10 @@ int main(void) {
 
 	ADC_init();         // initializes ADC
 	serial_init(9600);  // initializes serial
-    SPI_INIT();         // initalizes SPI
-    ST7735_init();      // initializes ST7735
-    columnSet();        // initializes LCD columns
-    rowSet();           // initializes LCD rows
+	SPI_INIT();         // initalizes SPI
+	ST7735_init();      // initializes ST7735
+	columnSet();        // initializes LCD columns
+	rowSet();           // initializes LCD rows
 
 	// Task 1
 	unsigned char i = 0;
@@ -857,54 +857,54 @@ int main(void) {
 	tasks[i].elapsedTime = tasks[i].period;
 	tasks[i].TickFct = &SM4_Tick;
 
-    // Task 5
+	// Task 5
 	i++;
 	tasks[i].state = SM5_INIT;
 	tasks[i].period = SM5_PERIOD;
 	tasks[i].elapsedTime = tasks[i].period;
 	tasks[i].TickFct = &SM5_Tick;
 
-    // Task 6
+	// Task 6
 	i++;
 	tasks[i].state = SM6_INIT;
 	tasks[i].period = SM6_PERIOD;
 	tasks[i].elapsedTime = tasks[i].period;
 	tasks[i].TickFct = &SM6_Tick;
 
-    // Task 7
+	// Task 7
 	i++;
 	tasks[i].state = SM7_INIT;
 	tasks[i].period = SM7_PERIOD;
 	tasks[i].elapsedTime = tasks[i].period;
 	tasks[i].TickFct = &SM7_Tick;
 
-    // Task 8
+	// Task 8
 	i++;
 	tasks[i].state = SM8_INIT;
 	tasks[i].period = SM8_PERIOD;
 	tasks[i].elapsedTime = tasks[i].period;
 	tasks[i].TickFct = &SM8_Tick;
 
-    // Task 9
+	// Task 9
 	i++;
 	tasks[i].state = SM9_INIT;
 	tasks[i].period = SM9_PERIOD;
 	tasks[i].elapsedTime = tasks[i].period;
 	tasks[i].TickFct = &SM9_Tick;
 
-    // Task 10
+	// Task 10
 	i++;
 	tasks[i].state = SM10_INIT;
 	tasks[i].period = SM10_PERIOD;
 	tasks[i].elapsedTime = tasks[i].period;
 	tasks[i].TickFct = &SM10_Tick;
 
-    // Task 11
-    i++;
-    tasks[i].state = SM11_INIT;
-    tasks[i].period = SM11_PERIOD;
-    tasks[i].elapsedTime = tasks[i].period;
-    tasks[i].TickFct = &SM11_Tick;
+	// Task 11
+	i++;
+	tasks[i].state = SM11_INIT;
+	tasks[i].period = SM11_PERIOD;
+	tasks[i].elapsedTime = tasks[i].period;
+	tasks[i].TickFct = &SM11_Tick;
 
 	TimerSet(GCD_PERIOD);
 	TimerOn();
