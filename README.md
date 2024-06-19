@@ -1,5 +1,5 @@
 # CS/EE 120B: Introduction to Embedded Systems - Custom Lab Project
-Welcome to my CS 120B custom for the course "Introduction to Embedded Systems" at UC Riverside. This repository contains the code, documentation, and resources for my custom laboratory project.
+Welcome to my CS 120B custom lab project repository for the course "Introduction to Embedded Systems" at UC Riverside. This repository contains the code, documentation, and resources for my custom laboratory project.
 
 ## Project Description
 
