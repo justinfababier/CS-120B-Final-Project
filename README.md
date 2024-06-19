@@ -3,7 +3,7 @@ Welcome to my CS 120B custom laboratory project repository for the course "Intro
 
 ## Project Description
 
-This project is a recreation of the classic T-Rex Dinosaur Game using an Elegoo Uno R3 and AVR programming. The game features both single and two-player modes, utilizing a joystick for controls, an ST7735 graphic LCD for visual outputs, and a passive buzzer for sound. State indicators are implemented using three LEDs (white, green, and red).
+This project is a recreation of the classic Dinosaur Game using an Elegoo Uno R3 and AVR programming. The game features both single and two-player modes, utilizing a joystick for controls, an ST7735 graphic LCD for visual outputs, and a passive buzzer for sound. State indicators are implemented using three LEDs (white, green, and red).
 
 ## Disclaimer
 
