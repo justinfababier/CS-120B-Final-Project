@@ -21,7 +21,7 @@
 
 // Task struct for concurrent synchSMs implementations
 typedef struct _task{
-	signed 		char state;			//Task's current state
+	signed 		char state;		//Task's current state
 	unsigned long period;			//Task period
 	unsigned long elapsedTime;		//Time elapsed since last task tick
 	int (*TickFct)(int);			//Task tick function
